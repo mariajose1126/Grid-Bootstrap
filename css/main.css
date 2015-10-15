@@ -1,0 +1,175 @@
+/* Inserta tu código aqui */
+
+h1{
+	display: inline-block;
+}
+
+#menu{
+	float: right;
+	position: relative;
+	top: 33px;	
+}
+
+#menu li{
+	display: inline;
+	border: none;
+	margin-left: 10px;
+}
+
+#menu li a{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-size: 16px;
+}
+
+/*Menú responsive*/
+
+/*HISTORIAS DESTACADAS*/
+
+.historia{
+	background-color: grey;
+	color: white;
+	padding: 5px 20px;
+	border:1px solid grey;
+	display: inline-block;
+}
+
+/*Artículos*/
+#menu_articulo{
+	padding: 0px;
+	padding-top: 25px;
+	padding-bottom: 5px;
+	text-align: left;
+	margin: 0% 0% 10%;
+
+}
+
+#menu_articulo li{
+	display: inline;
+	border: none;
+	padding-left: 10px;
+	border-left: 1px solid black;
+}
+
+#menu_articulo li a{
+	text-decoration: none;
+	font-size: 10px;
+	color: black;
+}
+
+.img{
+	width: 100%;
+}
+
+/*Box video*/
+
+.box_video{
+	width: 100%;
+	height: 100%;
+	background-color: #D8D8D8;
+	padding: 0px 5px;
+}
+
+.incrustar{
+	width: 50%;
+	height: 100%;
+}
+
+/*Video*/
+
+/*agenda*/
+
+.agenda{
+	background-color: grey;
+	text-align: left;
+	margin: 10px 0px;
+	color: white;
+	padding: 5px 90px 5px 5px;
+	border:1px solid grey;
+	display: inline-block;
+}
+
+/*Fechas*/
+
+.fechas{
+	width:100px;
+	height: 80px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	margin: 0px 10px 10px;
+}
+
+.float_fechas{
+	  	float: left;
+	  	position: relative;
+    margin-left: 0px;
+ }
+
+.ver_flotado{
+	float: left;
+	position: relative;
+	top:-30px;
+	left: 200px;
+	border: 1px solid red;
+}
+
+#lista_info li{
+		list-style-type:none;  
+
+
+}
+
+#lista_info li a{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-size: 16px;
+}
+
+.box_magazine{
+	width: 100%;
+	height: 100%;
+	background-color: #D8D8D8;
+	padding: 0px 5px;
+}
+
+footer{
+	border-top: 5px solid grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
